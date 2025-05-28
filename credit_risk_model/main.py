@@ -10,7 +10,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-file_path = "C:/Users/adity/OneDrive/Desktop\ecom/Credit_risk_management/credit_risk_model/data/accepted_2007_to_2018Q4/accepted_2007_to_2018Q4.csv"
+file_path = "C:/Users/adity/OneDrive/Desktop\ecom/Credit-Risk_management-ML-project/credit_risk_model/data/accepted_2007_to_2018Q4.csv"
 
 
 X_train_c, X_test_c, y_train_c, y_test_c, X_train_r, X_test_r, y_train_r, y_test_r = load_and_preprocess_data(file_path)
